@@ -41,20 +41,23 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         description: onBoardData[index].description,
                       )),
             ),
-            Row(
-              children: [
-                ...List.generate(
-                  onBoardData.length,
-                  ((index) => Padding(
-                        padding: const EdgeInsets.only(right: 4),
-                        child: DoIndicator(isActive: index == _pageIndex),
-                      )),
-                ),
-                const Spacer(),
-                const SizedBox(
-                  height: 50,
-                ),
-              ],
+            Container(
+              padding: EdgeInsets.only(left: 165),  
+              child: Row(
+                children: [
+                  ...List.generate(
+                    onBoardData.length,
+                    ((index) => Padding(
+                          padding: const EdgeInsets.only(right: 4),
+                          child: DoIndicator(isActive: index == _pageIndex),
+                        )),
+                  ),
+                  const Spacer(),
+                  const SizedBox(
+                    height: 50,
+                  ),
+                ],
+              ),
             ),
             Container(
               width: 70,
