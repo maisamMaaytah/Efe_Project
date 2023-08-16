@@ -42,7 +42,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       )),
             ),
             Container(
-              padding: EdgeInsets.only(left: 165),  
+              padding: EdgeInsets.only(left: 165),
               child: Row(
                 children: [
                   ...List.generate(
@@ -119,18 +119,18 @@ class onboard {
 final List onBoardData = [
   onboard(
     image: "assets/images/MyLogo.png",
-    title: "Maisam",
-    description: "Maisam",
+    title: "MAISAM COSMETICS",
+    description: "FOR MAKEUP LOVERS",
   ),
   onboard(
-    image: "assets/images/MyLogo.png",
-    title: "Maisam mohammad ",
-    description: "Maisam",
+    image: "assets/images/B2.jpg",
+    title: "EXCLUSIVE AGENTS FOR MAYBELLINE",
+    description: "THE BEST PRICE AND QUALITY",
   ),
   onboard(
-    image: "assets/images/MyLogo.png",
-    title: "Maisam mohammad salem",
-    description: "Maisam",
+    image: "assets/images/D_Logo.jpg",
+    title: "WE WILL REACH YOU WHEREVER YOU ARE",
+    description: "THE FASTEST DELIVERY SERVICE IN JORDAN ",
   ),
 ];
 
